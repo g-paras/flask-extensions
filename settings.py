@@ -16,3 +16,4 @@ MAIL_USE_TLS = True
 # flask user settings
 USER_APP_NAME = 'pySimplified'
 USER_CONFIRM_EMAIL_LOGIN = '10*60'  # 10 minutes
+USER_LOGOUT_URL = '/auth/logout'
